@@ -1,0 +1,47 @@
+[debug] [2022-07-22T12:44:10.538Z] ----------------------------------------------------------------------
+[debug] [2022-07-22T12:44:10.541Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2022-07-22T12:44:10.541Z] CLI Version:   11.3.0
+[debug] [2022-07-22T12:44:10.541Z] Platform:      linux
+[debug] [2022-07-22T12:44:10.541Z] Node Version:  v16.16.0
+[debug] [2022-07-22T12:44:10.542Z] Time:          Fri Jul 22 2022 18:14:10 GMT+0530 (India Standard Time)
+[debug] [2022-07-22T12:44:10.542Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-22T12:44:10.545Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-07-22T12:44:10.565Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-22T12:44:10.565Z] > authorizing via signed-in user (jayeshjoshi@benchmarkit.solutions)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/jayeshj/Desktop/ReatJS Task/emp-task
+
+[debug] [2022-07-22T12:44:11.272Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-07-22T12:44:11.272Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-22T12:45:40.065Z] > refreshing access token with scopes: []
+[debug] [2022-07-22T12:45:40.066Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-07-22T12:45:40.066Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-22T12:45:40.291Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-07-22T12:45:40.291Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-22T12:45:40.301Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-22T12:45:41.130Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-22T12:45:41.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project emp-task-ed525 (react-task) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

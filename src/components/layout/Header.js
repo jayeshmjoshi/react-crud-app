@@ -26,7 +26,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          React Auth App
+          React CRUD App
         </Navbar.Brand>
         <Nav className="ms-auto">
           {!isLoggedIn && (

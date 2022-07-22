@@ -1,0 +1,17 @@
+.card {
+  background-color: #212529;
+  padding: 2%;
+}
+
+.signup-card {
+  max-width: 600px;
+}
+
+.card-body {
+  color: #fff;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+}
